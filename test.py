@@ -1,7 +1,9 @@
 import numpy as np
 
 def surface_circle(radius):
-    """Compute the area of a circle given its radius."""
+    """
+    Compute the area of a circle from a given radius.
+    """
     return np.pi*radius**2
 
 def circumference_circle(radius):
